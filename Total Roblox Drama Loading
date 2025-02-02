@@ -35,7 +35,8 @@ fire.Size = 10
 fire.Heat = 5
 fire.Color = Color3.fromRGB(255, 165, 0)
 
-task.wait(5)
-screenGui:Destroy()
+task.wait(1)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Sjsjjsjhs/Scripts/refs/heads/main/Total%20Roblox%20Drama"))()
+
+screenGui:Destroy()
